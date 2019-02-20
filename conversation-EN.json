@@ -1,0 +1,36 @@
+{
+    "start": "welcome",
+    "intents" : [
+        {
+            "intent" : "hello",
+            "description" : "say hello",
+            "dialogue" : "hello"
+        },
+        {
+            "intent" : "start_again",
+            "description" : "end the current dialogue and start from the beginning"
+        },
+        {
+            "intent" : "enquiry",
+            "description" : "I'd like to make an enquiry",
+            "dialogue" : "enquiry"
+        }
+    ],
+    "dialogues": [
+        {
+            "id": "welcome",
+            "description" : "the spiel told to all joiners of the conversation", 
+            "next": ""
+        },
+        {
+            "id" : "hello",
+            "description" : "",
+            "next" : ""
+        },
+        {
+            "id" : "enquiry",
+            "description" : "start an enquiry",
+            "next" : ""
+        }
+    ]
+}

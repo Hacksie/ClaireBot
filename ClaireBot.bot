@@ -1,0 +1,50 @@
+{
+  "name": "ClaireBot",
+  "padlock": "gbK6WyzP2oZPwJN3U0MMEQ==!DyxUvTWE+nh3VwuaWqzqCQN9YRhWI5KjjnmnejT1fQ0EC3g+XAicTZxralomoH50",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "06bcb796-0683-4911-b8e3-6ab8aefab70c",
+      "subscriptionId": "0bb12a83-33b0-4db3-8000-7ac7d92849e6",
+      "resourceGroup": "ClaimsAutomation",
+      "serviceName": "ClaireBot",
+      "type": "abs",
+      "name": "ClaireBot",
+      "id": "1"
+    },
+    {
+      "connectionString": "+beCu1Cz8/fo66BgNUFRgQ==!7yghOAjYpNk2sU6b4wJoFN38OrlmEvcw0+V6NiksCnVTjKHtDcdkg26sTrqiueCyiDWDBVLfTZkr1GxOY2PrZ8wrRYOednqZLfKMyEQNR1mxfJhbR+fhV/VsKxtXUwesQtwEcmuV6/zTmQ5njh877Bqss68FeG/fbOB7OAZxpuB4PLsixeX0lVgaHMp7e+mQ1s9HeXmIIcAX5v7jexEQGw==",
+      "tenantId": "06bcb796-0683-4911-b8e3-6ab8aefab70c",
+      "subscriptionId": "0bb12a83-33b0-4db3-8000-7ac7d92849e6",
+      "resourceGroup": "ClaimsAutomation",
+      "serviceName": "clairebot9f2b",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "d6720ce0-8874-44e5-9577-29ef651d7256",
+      "appPassword": "TBkaZ1wR4LJmlRVjPf0G7w==!Siu8SN5w6jK0byMCBQEryPVPj7qJRgkaEd7NFMpIrls=",
+      "endpoint": "https://clairebot.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "appId": "14b392e4-c734-4945-b405-0dd88fa54f97",
+      "authoringKey": "lSalkLEm8+cFS8osFKwySQ==!9m1kBlyQ92QLEdTYw8zE2puh0Zb9/GJg0lERXzupmswgZ143bnHC+K1Oha5XK82M",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "BasicBotLuisApplication",
+      "id": "5"
+    }
+  ]
+}
